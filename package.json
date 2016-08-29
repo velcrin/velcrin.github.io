@@ -1,0 +1,32 @@
+{
+  "name": "velcrin.github.io",
+  "version": "1.0.0",
+  "description": "Personnal website",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server dist",
+    "publish": "git subtree push --prefix dist/ origin master",
+    "clean": "rm -rf dist",
+    "build": "npm-run-all clean build:*",
+    "prebuild:html": "mkdir dist",
+    "build:html": "htmlmin -o dist/index.html src/index.html",
+    "prebuild:css": "mkdir -p dist/css",
+    "build:css": "npm-run-all build:css:*",
+    "build:css:print": "cleancss -o dist/css/print.min.css src/css/print.css",
+    "postbuild:css:print": "replace 'print.css' 'print.min.css' dist/index.html",
+    "build:css:style": "cleancss --skip-rebase -o dist/css/style.min.css src/css/style.css",
+    "postbuild:css:style": "replace 'style.css' 'style.min.css' dist/index.html",
+    "build:css:assets": "cp src/css/normalize.min.css dist/css",
+    "prebuild:img": "mkdir dist/img",
+    "build:img": "cp src/img/* dist/img"
+  },
+  "author": "Vincent Elcrin",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css": "3.4.19",
+    "html-minifier-cli": "0.1.0",
+    "http-server": "0.9.0",
+    "npm-run-all": "3.0.0",
+    "replace": "0.3.0"
+  }
+}

@@ -1,0 +1,50 @@
+@page {
+    margin: 10%
+}
+
+.Navbar {
+    display: none;
+}
+
+.Intro {
+    display: none;
+}
+
+.Contact {
+    display: block;
+}
+
+.Content {
+    margin-top: 0;
+}
+
+footer {
+    display: none;
+}
+
+html {
+    font-size: 11pt;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 18pt;
+    line-height: 18pt;
+}
+
+h2 {
+    padding-top: 10pt;
+    border-top: 1px solid #ddd;
+    font-size: 18pt;
+    line-height: 18pt;
+}
+
+h3 {
+    font-size: 14pt;
+    line-height: 14pt;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
