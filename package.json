@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server dist",
+    "prepublish": "npm-run-all build",
     "publish": "git subtree push --prefix dist/ origin master",
     "clean": "rm -rf dist",
     "build": "npm-run-all clean build:*",
