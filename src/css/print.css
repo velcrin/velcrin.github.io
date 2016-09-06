@@ -2,23 +2,24 @@
     margin: 10%
 }
 
-.Navbar {
+.Body {
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.Body-header {
     display: none;
 }
 
-.Intro {
-    display: none;
-}
-
-.Contact {
+.Body-header--print {
     display: block;
 }
 
-.Content {
-    margin-top: 0;
+.Body-content {
+    padding-bottom: 0;
 }
 
-footer {
+.Footer {
     display: none;
 }
 

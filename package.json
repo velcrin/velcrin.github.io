@@ -17,9 +17,12 @@
     "postbuild:css:print": "replace 'print.css' 'print.min.css' dist/index.html",
     "build:css:style": "cleancss --skip-rebase -o dist/css/style.min.css src/css/style.css",
     "postbuild:css:style": "replace 'style.css' 'style.min.css' dist/index.html",
-    "build:css:assets": "cp src/css/normalize.min.css dist/css",
+    "build:css:assets": "cp src/css/normalize.min.css src/css/font-awesome.min.css dist/css",
     "prebuild:img": "mkdir dist/img",
-    "build:img": "cp src/img/* dist/img"
+    "build:img": "cp src/img/* dist/img",
+    "prebuild:fonts": "mkdir dist/fonts",
+    "build:fonts": "cp src/fonts/* dist/fonts",
+    "build:favicon": "cp src/favicon.ico dist"
   },
   "author": "Vincent Elcrin",
   "license": "MIT",
