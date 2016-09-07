@@ -145,6 +145,12 @@ h3 {
     text-align: center;
 }
 
+.Footer-print {
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+}
+
 .Social {
     list-style: none;
     margin: 0;
