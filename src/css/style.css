@@ -44,7 +44,7 @@ h3 {
 }
 
 .Body-header, .Body-content {
-    max-width: 660px;
+    max-width: 780px;
     margin: 0 auto;
     padding: 1em 1em 0;
 }
@@ -194,5 +194,14 @@ h3 {
 
     .Footer-link {
         font-size: 1.6em;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
