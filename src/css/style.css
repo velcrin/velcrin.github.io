@@ -62,6 +62,14 @@ h3 {
     display: none;
 }
 
+.Contact-title {
+    float: left;
+}
+
+.Contact-description {
+    margin-left: 1.5em;
+}
+
 .Header-title {
     text-align: center;
     margin: 0;
