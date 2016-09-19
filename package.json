@@ -22,7 +22,8 @@
     "build:img": "cp src/img/* dist/img",
     "prebuild:fonts": "mkdir dist/fonts",
     "build:fonts": "cp src/fonts/* dist/fonts",
-    "build:favicon": "cp src/favicon.ico dist"
+    "build:favicon": "cp src/favicon.ico dist",
+    "build:CNAME": "cp CNAME dist"
   },
   "author": "Vincent Elcrin",
   "license": "MIT",
