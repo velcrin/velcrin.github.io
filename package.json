@@ -4,8 +4,8 @@
   "description": "Personnal website",
   "main": "index.html",
   "scripts": {
-    "predeploy": "next build && next export && touch out/.nojekyll && git commit -a 'Deploy to gh-pages'",
-    "deploy": "git subtree push --prefix out/ origin gh-pages",
+    "predeploy": "next build && next export && git commit -am 'Deploy to gh-pages'",
+    "deploy": "git subtree push --prefix out/ origin master",
     "dev": "next",
     "build": "next build",
     "start": "next start",
