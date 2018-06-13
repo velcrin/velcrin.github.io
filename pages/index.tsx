@@ -11,6 +11,7 @@ import { Footer } from '../templates/Footer';
 import { MainTitle } from '../atoms/MainTitle';
 import { Social } from '../organisms/Social';
 import { Myself } from '../organisms/Myself';
+import Head from 'next/head';
 
 injectGlobal`
   ${normalize}
@@ -26,6 +27,10 @@ injectGlobal`
 
 export default () => (
   <Resume>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta charSet="utf-8" />
+    </Head>
     <Header>
       <MainTitle>Hello.</MainTitle>
       <Paragraph>
