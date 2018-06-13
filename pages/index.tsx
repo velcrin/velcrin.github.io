@@ -20,7 +20,7 @@ injectGlobal`
   
   body {
     font-family: 'Dosis', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.6;
   }
 `;
