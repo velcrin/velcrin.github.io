@@ -12301,7 +12301,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
         var WM = e.n(UM);
         var GM = $M([
           '\n  ',
-          "\n  \n  @import url('https://fonts.googleapis.com/css?family=Dosis');\n  \n  body {\n    font-family: 'Dosis', sans-serif;\n    font-size: 24px;\n    line-height: 1.6;\n  }\n"
+          "\n  \n  @import url('https://fonts.googleapis.com/css?family=Dosis');\n  \n  body {\n    font-family: 'Dosis', sans-serif;\n    font-size: 18px;\n    line-height: 1.6;\n  }\n"
         ]);
         function $M(c, a) {
           a || (a = c.slice(0));
