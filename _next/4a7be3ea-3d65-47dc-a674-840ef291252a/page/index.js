@@ -1,17 +1,17 @@
 module.exports = __NEXT_REGISTER_PAGE('/', function() {
   var c = webpackJsonp(
-    [1],
+    [0],
     {
-      192: function(c, a, e) {
-        c.exports = e(193);
-      },
       193: function(c, a, e) {
+        c.exports = e(194);
+      },
+      194: function(c, a, e) {
         'use strict';
         Object.defineProperty(a, '__esModule', { value: true });
         var r = e(1);
         var n = e.n(r);
         var i = e(2);
-        var o = e(201);
+        var o = e(202);
         var t = e.n(o);
         var l = i['default'].div.withConfig({
           displayName: 'Header__OuterHeader'
@@ -131,7 +131,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
         var O = i['default'].a.withConfig({ displayName: 'Link' })([
           'color:white;'
         ]);
-        var P = e(202);
+        var P = e(203);
         var T = {};
         try {
           'undefined' !== typeof window && (T = window);
@@ -12297,21 +12297,32 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
             )
           );
         };
-        var UM = WM([
+        var UM = e(205);
+        var WM = e.n(UM);
+        var GM = $M([
           '\n  ',
           "\n  \n  @import url('https://fonts.googleapis.com/css?family=Dosis');\n  \n  body {\n    font-family: 'Dosis', sans-serif;\n    font-size: 24px;\n    line-height: 1.6;\n  }\n"
         ]);
-        function WM(c, a) {
+        function $M(c, a) {
           a || (a = c.slice(0));
           return Object.freeze(
             Object.defineProperties(c, { raw: { value: Object.freeze(a) } })
           );
         }
-        Object(i['injectGlobal'])(UM, t.a);
-        var GM = (a['default'] = function() {
+        Object(i['injectGlobal'])(GM, t.a);
+        var XM = (a['default'] = function() {
           return r['createElement'](
             y,
             null,
+            r['createElement'](
+              WM.a,
+              null,
+              r['createElement']('meta', {
+                name: 'viewport',
+                content: 'width=device-width, initial-scale=1'
+              }),
+              r['createElement']('meta', { charSet: 'utf-8' })
+            ),
             r['createElement'](
               v,
               null,
@@ -12408,7 +12419,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           );
         });
       },
-      194: function(c, a) {
+      195: function(c, a) {
         c.exports = function(c) {
           if (!c.webpackPolyfill) {
             var a = Object.create(c);
@@ -12431,9 +12442,9 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           return a;
         };
       },
-      195: function(c, a, e) {
+      196: function(c, a, e) {
         'use strict';
-        var r = e(196);
+        var r = e(197);
         function n(c) {
           return (
             true === r(c) &&
@@ -12451,7 +12462,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           return true;
         };
       },
-      196: function(c, a, e) {
+      197: function(c, a, e) {
         'use strict';
         c.exports = function c(a) {
           return (
@@ -12459,7 +12470,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           );
         };
       },
-      197: function(c, a, e) {
+      198: function(c, a, e) {
         (function(a) {
           c['exports'] = a(null);
         })(function c(a) {
@@ -13476,7 +13487,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           return Kc;
         });
       },
-      198: function(c, a, e) {
+      199: function(c, a, e) {
         (function(a) {
           c['exports'] = a();
         })(function() {
@@ -13512,11 +13523,6 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
             };
           };
         });
-      },
-      199: function(c, a, e) {
-        'use strict';
-        true;
-        c.exports = e(200);
       },
       2: function(c, a, e) {
         'use strict';
@@ -13556,11 +13562,11 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
               return Ca;
             }
           );
-          var n = e(195);
+          var n = e(196);
           var i = e.n(n);
-          var o = e(197);
+          var o = e(198);
           var t = e.n(o);
-          var l = e(198);
+          var l = e(199);
           var f = e.n(l);
           var v = e(1);
           var s = e.n(v);
@@ -13568,7 +13574,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           var m = e.n(h);
           var z = e(99);
           var p = e.n(z);
-          var u = e(199);
+          var u = e(200);
           var d = e.n(u);
           var M = /([A-Z])/g;
           function H(c) {
@@ -15091,9 +15097,14 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           var La = da(O, $);
           var Na = za(xa, Va);
           a['default'] = Na;
-        }.call(a, e(98), e(194)(c)));
+        }.call(a, e(98), e(195)(c)));
       },
       200: function(c, a, e) {
+        'use strict';
+        true;
+        c.exports = e(201);
+      },
+      201: function(c, a, e) {
         'use strict';
         Object.defineProperty(a, '__esModule', { value: !0 });
         var r = 'function' === typeof Symbol && Symbol.for,
@@ -15185,7 +15196,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           return z(c) === t;
         };
       },
-      201: function(c, a, e) {
+      202: function(c, a, e) {
         'use strict';
         Object.defineProperty(a, '__esModule', { value: true });
         a.normalize = a.version = void 0;
@@ -15207,10 +15218,10 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
         var t = (a.normalize = (0, n.css)(r));
         a.default = t;
       },
-      202: function(c, a, e) {
+      203: function(c, a, e) {
         'use strict';
         (function(c) {
-          var r = e(203);
+          var r = e(204);
           var n = e(22);
           var i = e.n(n);
           var o = e(1);
@@ -15628,7 +15639,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
           a['a'] = L;
         }.call(a, e(96)));
       },
-      203: function(c, a, e) {
+      204: function(c, a, e) {
         'use strict';
         var r = function c() {};
         var n = {};
@@ -17093,9 +17104,12 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
         u && J(qa);
         var _a = Ra.config;
         a['a'] = Ra;
+      },
+      205: function(c, a, e) {
+        c.exports = e(100);
       }
     },
-    [192]
+    [193]
   );
   return { page: c.default };
 });
