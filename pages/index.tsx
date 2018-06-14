@@ -34,11 +34,10 @@ export default () => (
     <Header>
       <MainTitle>Hello.</MainTitle>
       <Paragraph>
-        I’m Vincent. A software engineer with 8 years of experience in building
-        solutions in all kind of environment. Now living in Mainz, Germany. I
-        speak French and English. When I’m not at a concert or cooking
-        something, I just love solving real problems with a clean code and a
-        good UX.
+        I’m Vincent. I have been building software in all kind of environments
+        for 8 years now. I’m currently living in Mainz, Germany. I speak French
+        and English. When I’m not at a concert or cooking something, I just love
+        helping people with a clean code and a good UX.
       </Paragraph>
       <Social />
     </Header>
@@ -82,8 +81,8 @@ export default () => (
           InVision, and Zeplin. I am also part of the development team building
           the entire solution from scratch, in addition to mentoring and sharing
           through Pair Programming and code review. We focus a lot on the user
-          experience and the way we deliver new features. Leveraging CI/CD,
-          Design Thinking, and other Agile practices.
+          experience and the way we deliver features. Leveraging CI/CD, Design
+          Thinking, and other Agile practices.
         </Paragraph>
       </Experience>
       <Experience
