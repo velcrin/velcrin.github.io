@@ -12330,7 +12330,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
               r['createElement'](
                 z,
                 null,
-                'I’m Vincent. A software engineer with 8 years of experience in building solutions in all kind of environment. Now living in Mainz, Germany. I speak French and English. When I’m not at a concert or cooking something, I just love solving real problems with a clean code and a good UX.'
+                'I’m Vincent. I have been building software in all kind of environments for 8 years now. I’m currently living in Mainz, Germany. I speak French and English. When I’m not at a concert or cooking something, I just love helping people with a clean code and a good UX.'
               ),
               r['createElement'](DM, null)
             ),
@@ -12371,7 +12371,7 @@ module.exports = __NEXT_REGISTER_PAGE('/', function() {
                 r['createElement'](
                   z,
                   null,
-                  'A real startup and human experience. We are building a SaaS platform to help brands and e-commerce to improve their performance using the internet. Here I can take great care of the UI and the UX, building prototypes and designing parts of the application using Sketch, InVision, and Zeplin. I am also part of the development team building the entire solution from scratch, in addition to mentoring and sharing through Pair Programming and code review. We focus a lot on the user experience and the way we deliver new features. Leveraging CI/CD, Design Thinking, and other Agile practices.'
+                  'A real startup and human experience. We are building a SaaS platform to help brands and e-commerce to improve their performance using the internet. Here I can take great care of the UI and the UX, building prototypes and designing parts of the application using Sketch, InVision, and Zeplin. I am also part of the development team building the entire solution from scratch, in addition to mentoring and sharing through Pair Programming and code review. We focus a lot on the user experience and the way we deliver features. Leveraging CI/CD, Design Thinking, and other Agile practices.'
                 )
               ),
               r['createElement'](
