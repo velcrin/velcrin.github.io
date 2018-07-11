@@ -2,13 +2,11 @@ import * as React from 'react';
 import { Item, List } from '../atoms/List';
 import { Link } from '../atoms/Link';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {
-  faGithub,
-  faLinkedin,
-  faStackOverflow,
-  faTwitter
-} from '@fortawesome/fontawesome-free-brands';
-import { faEnvelope } from '@fortawesome/fontawesome-free-solid';
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
+import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedin';
+import faStackOverflow from '@fortawesome/fontawesome-free-brands/faStackOverflow';
+import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
+import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
 export const Social = () => (
   <List>
