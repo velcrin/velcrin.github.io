@@ -12,11 +12,10 @@ import { MainTitle } from '../atoms/MainTitle';
 import { Social } from '../organisms/Social';
 import { Myself } from '../organisms/Myself';
 import Head from 'next/head';
+import 'typeface-dosis';
 
 injectGlobal`
   ${normalize}
-  
-  @import url('https://fonts.googleapis.com/css?family=Dosis');
   
   body {
     font-family: 'Dosis', sans-serif;
